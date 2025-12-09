@@ -11,7 +11,7 @@ The dataset that was used for this analysis contains 1010 rows of individuals’
 - Age: 15–30 years (average 20)
 - Country: Slovakia  
 - Data source: students and their social circle (university survey)
-- All answers are given on a **1–5 Likert scale**
+- All answers are given on a 1–5 Likert scale
 
 The variables can be split into the following groups:
 
