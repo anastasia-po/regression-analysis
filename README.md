@@ -1,5 +1,4 @@
 # Regression Analysis of Spending Behavior
-Spending behavior analysis using correlation, linear and multiple regression in Python.
 
 ## Project Overview
 The dataset that was used for this analysis contains 1010 rows of individuals’ preferences and demographic characteristics. The primary focus of this analysis is to identify factors that influence individuals’ spending patterns and to develop an accurate predictive model. The main hypothesis is that **women spend more money on appearance than men**. The report demonstrates the results of correlation analysis, simple linear regression, and multiple linear regression.
