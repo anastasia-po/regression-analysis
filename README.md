@@ -1,8 +1,28 @@
 # Regression Analysis of Spending Behavior
 
 ## Project Overview
-The dataset that was used for this analysis contains 1010 rows of individuals’ preferences and demographic characteristics. The primary focus of this analysis is to identify factors that influence individuals’ spending patterns and to develop an accurate predictive model. The main hypothesis is that **women spend more money on appearance than men**. The report demonstrates the results of correlation analysis, simple linear regression, and multiple linear regression.
+The dataset that was used for this analysis contains 1010 rows of individuals’ preferences and demographic characteristics. The **primary focus** of this analysis is to identify factors that influence individuals’ spending patterns and to develop an accurate predictive model. The main hypothesis is that **women spend more money on appearance than men**. The report demonstrates the results of correlation analysis, simple linear regression, and multiple linear regression.
 
+---
+
+## Key Findings
+- Women spend slightly more on appearance than men (**+0.3 points on a 1–5 scale**)  
+- Gender alone has **low explanatory power**  
+- **Shopping interest is the strongest predictor of spending on appearance**  
+- Multiple regression significantly improved model performance (**R² = 0.276**)
+---
+
+## Tools & Methods
+- Python  
+  - pandas  
+  - numpy  
+  - matplotlib  
+  - statsmodels
+  - seaborn  
+
+- Correlation Analysis  
+- Simple Linear Regression  
+- Multiple Linear Regression
 ---
 
 ## Dataset Description
@@ -23,19 +43,6 @@ The variables can be split into the following groups:
 - Personality traits, views on life, & opinions (57 items)
 - Spending habits (7 items)
 - Demographics (10 items)
-
----
-## Tools & Methods
-- Python  
-  - pandas  
-  - numpy  
-  - matplotlib  
-  - statsmodels
-  - seaborn  
-
-- Correlation Analysis  
-- Simple Linear Regression  
-- Multiple Linear Regression
 
 ---
 ## Analysis
@@ -63,18 +70,10 @@ Added the following predictors:
 - Socializing interest  
 
 Results:
-- **R² increased to 0.276**
+- **R² = 0.276** (Multiple regression analysis explains 27.6% of the variance in spending on looks)
 - **Shopping interest** became the strongest predictor (positive correlation (0.51))
 - Gender and socializing interest showed weak positive effects
 - Age was not statistically significant
-
----
-
-## Key Findings
-- Women spend slightly more on appearance than men (**+0.3 points on a 1–5 scale**)  
-- Gender alone has **low explanatory power**  
-- **Shopping interest is the strongest predictor of spending on appearance**  
-- Multiple regression significantly improved model performance (**R² = 0.276**)
 
 ---
 
