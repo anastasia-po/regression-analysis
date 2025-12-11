@@ -9,7 +9,7 @@ The dataset that was used for this analysis contains 1010 rows of individuals’
 - Women spend slightly more on appearance than men (**+0.3 points on a 1–5 scale**)  
 - Gender alone has **low explanatory power**  
 - **Shopping interest is the strongest predictor of spending on appearance**  
-- Multiple regression significantly improved model performance (**R² = 0.276**)
+- **Multiple regression** demonstrated substantially **better explanatory power (R² = 0.276)** compared to **simple regression (R² = 0.015)**.
 ---
 
 ## Tools & Methods
